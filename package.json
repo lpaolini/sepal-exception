@@ -1,0 +1,26 @@
+{
+    "name": "@sepal/exception",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "main": "src/exception.js",
+    "scripts": {
+        "test": "jest",
+        "testWatch": "jest --watchAll"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.30.0",
+        "jest": "^27.0.6",
+        "jest-expect-message": "^1.0.2"
+    },
+    "jest": {
+        "setupFilesAfterEnv": [
+            "jest-expect-message"
+        ]
+    }
+}
